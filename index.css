@@ -74,6 +74,7 @@ img {
 
   & .card__title,
   & .card__description {
+    padding-inline: var(--spacing-100);
     font-feature-settings: "liga" off, "clig" off;
   }
 
