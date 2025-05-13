@@ -34,7 +34,6 @@ html {
 
 body {
   display: grid;
-  grid-template-rows: 1fr min-content;
   place-items: center;
   min-height: 100vh;
 
@@ -52,20 +51,6 @@ img {
 }
 
 /* === end of reest === */
-
-/* === utilities === */
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  padding-block: 1.6rem;
-
-  & a {
-    color: hsl(228, 45%, 44%);
-  }
-}
-
-/* === end of utilities === */
 
 .card {
   --border-radius: 2rem;
