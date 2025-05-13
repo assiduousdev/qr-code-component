@@ -1,0 +1,65 @@
+:root {
+  --clr-accent-100: 212 45 89;
+  --clr-accent-200: 216 15 48;
+  --clr-accent-300: 218 44 22;
+
+  --clr-white: 0 0 100;
+
+  --ff-sans: "Outfit", sans-serif;
+
+  --fs-500: 2.2rem;
+  --fs-400: 1.5rem;
+
+  --fw-semibold: 600;
+  --fw-regular: 400;
+
+  --spacing-100: 1.6rem;
+  --spacing-200: 2.4rem;
+  --spacing-300: 4rem;
+}
+
+/* === reset === */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+
+  font-family: var(--ff-sans);
+  font-size: var(--fs-400);
+  background-color: hsl(var(--clr-accent-100));
+
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* === end of reest === */
+
+/* === utilities === */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  & a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+/* === end of utilities === */
