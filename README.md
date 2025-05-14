@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [View code in GitHub](https://github.com/assiduousdev/qr-code-component/)
-- Live Site URL: [View lite site](https://christian-qr-code-component.netlify.app/)
+- Live Site URL: [View live site](https://christian-qr-code-component.netlify.app/)
 
 ### Built with
 
